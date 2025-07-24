@@ -1,0 +1,20 @@
+cff-version: 1.0.0
+authors:
+- family-names: "Lejeune"
+  given-names: "Michaël"
+  orcid: "https://orcid.org/0000-0003-3832-3422"
+- family-names: "Kara"
+  given-names: "Sami"
+  orcid: "https://orcid.org/0000-0001-6132-121X"
+- family-names: "Daiyan"
+  given-names: "Rahman"
+  orcid: "https://orcid.org/0000-0002-3543-3944"
+- family-names: "Hauschild"
+  given-names: "Michael Zwicky"
+  orcid: "https://orcid.org/0000-0002-8331-7390"
+
+title: "Prospective Global Warming Potential of Australian Low-Emission Hydrogen in a Net-Zero Emission Context"
+version: 1.0.0
+doi: 10.1016/j.procir.2025.01.066
+date-released: 2025-07-17
+url: "https://github.com/Michael-ljn/CIRP-LCE-2025"
