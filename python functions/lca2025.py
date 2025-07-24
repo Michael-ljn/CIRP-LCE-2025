@@ -1,0 +1,15 @@
+def lcaH2(c_f_solar, c_f_wind, share, SEC):
+
+  return (
+  0.3523459905321068 + SEC * (1 + -1 * share) * (-0.00018459170776438433 / (262800.0 * c_f_solar) + 758965.9897380325 / (1.49796e8 * c_f_solar) + 0.0003340133019510307 / (262800.0 * c_f_solar)) + SEC * share * (3.404611240109596e-5 / (1.7519999999999997e8 * c_f_wind) + 2836.0110947776634 / (1.7519999999999997e8 * c_f_wind) + 2519.7227089620287 / (1.7519999999999997e8 * c_f_wind) + 828368.7039014507 / (1.7519999999999997e8 * c_f_wind) + 77485.40134432708 / (1.7519999999999997e8 * c_f_wind))
+)
+
+if __name__ == "__main__":
+  # Example usage
+  c_f_solar = 1.0  # Example value for solar capacity factor
+  c_f_wind = 1.0   # Example value for wind capacity factor
+  share = 0.5      # Example share of renewable energy
+  SEC = 1.0        # Example specific energy consumption
+
+  result = lcaH2(c_f_solar, c_f_wind, share, SEC)
+  print(f"LCA result: {result}")
